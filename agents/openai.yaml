@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lexie 正文配图"
+  short_description: "为中文文章生成由 Lexie 主导动作的清爽怪诞手绘配图"
+  brand_color: "#8EA4E8"
+  default_prompt: "Use $lexie-skill to 为这篇中文文章设计并生成几张 Lexie 怪诞正文配图。"
+policy:
+  allow_implicit_invocation: true
