@@ -1,0 +1,42 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# Editor and tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Caches and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+*.temp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local archives and drafts
+*.zip
+*.tar
+*.tar.gz
+drafts/
+tmp/
+temp/
